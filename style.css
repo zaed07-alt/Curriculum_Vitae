@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI';
+}
+
+.left-container {
+    font-family: 'Times New Roman', Times, serif;
+    position: fixed;
+    width: 400px;
+    height: 100vh;
+    background-color: #b6b6b6;
+}
+
+.fotoprofil {
+    position: absolute;
+    top: 100px;
+    text-align: center;
+}
+   img {
+    width: 50%;
+    border-radius: 50%;
+   }
+   .fotoprofil h1 {
+    margin-top: 80px;
+   }
+
+.fa-brands {
+    font-size: 40px;
+    margin-top: 10px;
+   }
+
+.github, .instagram, .whatsapp {
+    font-size: 18px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+    .github a, .instagram a, .whatsapp a {
+        text-decoration: none;
+        color: inherit;
+    }
+    .github i, .instagram i, .whatsapp i {
+        margin-bottom: 8px;
+    }
+   .github:hover, .instagram:hover, .whatsapp:hover {
+    color: whitesmoke;
+    transform: scale(1.1);
+    transition: ease-in-out 0.4s;
+   }
+
+.right-container {
+    position: absolute;
+    left: 400px;
+}
+    .top-bar {
+        padding-top: 50px;
+        padding-left: 100px;
+    }
+    .top-bar hr {
+        height: 5px;
+        border-radius: 5px;
+        background-color: black;
+    }
+    .nav-list {
+       float: right;
+       padding-right: 50px;
+       padding-top: 20px;
+    }
+    .menu {
+        font-size: 18px;
+        padding: 0 10px;
+    }
+    .menu:hover{
+        background-color: #333;
+        color: white;
+        border-radius: 10px;
+        transform: scale(1.1);
+        transition: ease 0.3s;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    .title {
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+        font-size: 25px;
+        cursor: default;
+    }
+.name-profile {
+    padding-top: 100px;
+    padding-left: 100px;
+}
+    #about {
+        padding-top: 100px;
+        padding-left: 100px;
+    }
+        .fa-user {
+            font-size: 40px;
+            padding-right: 10px;
+            padding-top: 10px;
+        }
+        .logo-about {
+            display: flex;
+        }
+        #about h3 {
+            padding-top: 20px;
+        }
+        #about p {
+            padding-top: 10px;
+        }
+    #education {
+        padding-top: 100px;
+        padding-left: 100px;
+    }
+        .fa-graduation-cap {
+            font-size: 40px;
+            padding-right: 10px;
+            padding-top: 10px;
+        }
+        .logo-education {
+            display: flex;
+        }
+        #education h3 {
+            padding-top: 20px;
+        }
+        #education p {
+            padding-top: 10px;
+        }
+    #skills {
+        padding-top: 100px;
+        padding-left: 100px;
+    }
+        .fa-laptop-code {
+            font-size: 40px;
+            padding-right: 10px;
+            padding-top: 10px;
+        }
+        .logo-skills {
+            display: flex;
+        }
+        #skills h3 {
+            padding-top: 20px;
+        }
+        #skills p {
+            padding-top: 10px;
+        }
+    #footer {
+        padding-top: 250px;
+        text-align: center;
+    }
+
